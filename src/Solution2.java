@@ -2,11 +2,12 @@ public class Solution2 {
     public static void main(String[] args) {
         int number = 1245;
         int sumOfDigits = 0;
+        int k = 3;
 
         while(number != 0) {
             int currentDigit = number % 10;
             number = number / 10;
-            sumOfDigits += currentDigit;
+            sumOfDigits += Math.pow(currentDigit, k);
         }
         System.out.println(sumOfDigits);
 
