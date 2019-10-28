@@ -8,58 +8,47 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         // создаем робота
         Robot r = new Robot(2, 2, '*');
-        field.data[r.x][r.y] = Field.ROBOT;
+
+        field.setValue(r.getX(), r.getY(), CellValue.ROBOT);
         field.printField();
         while(true) {
             String command = sc.next();
             if(command.equalsIgnoreCase("exit")) {
                 break;
             }
+
             switch (command) { //String, int, Enum
-                case "left": {
-                    System.out.println("Move left");
-                    moveLeft(r, field);
-                    break;
-                }
-                case "right": {
-                    System.out.println("Move right");
-                    moveRight(r, field);
-                    break;
-                }
-                case "down": {
-                    moveDown(r, field);
+                case Field.LEFT:
+                case Field.RIGHT:
+                case Field.UP:
+                case Field.DOWN: {
+                    move(r, field, command);
                     break;
                 }
             }
             field.printField();
         }
-//        Field.EMPTY
     }
 
-    private static void moveLeft(Robot r, Field f) {
-        // затираем старое положение робота
-        f.data[r.x][r.y] = Field.EMPTY;
-        // проверяем, что мы в границах
-        if(r.y - 1 >=  0) {
-            r.y--;
+    private static void move(Robot r, Field f, String direction) {
+        f.setValue(r.getX(), r.getY(), CellValue.EMPTY);
+        if(direction.equalsIgnoreCase(Field.LEFT)) {
+            if(r.getY() - 1 >=  0) {
+                r.setY(r.getY() - 1);
+            }
+        } else if(direction.equalsIgnoreCase(Field.RIGHT)) {
+            if(r.getY() + 1 < f.getSize()) {
+                r.setY(r.getY() + 1);
+            }
+        } else if(direction.equalsIgnoreCase(Field.UP)) {
+            if(r.getX() - 1 >= 0) {
+                r.setX(r.getX() - 1);
+            }
+        } else if(direction.equalsIgnoreCase(Field.DOWN)) {
+            if(r.getX() + 1< f.getSize()) {
+                r.setX(r.getX() + 1);
+            }
         }
-        // устанавливаем значение в новую ячейку
-        f.data[r.x][r.y] = Field.ROBOT;
-    }
-
-    private static void moveRight(Robot r, Field f) {
-        f.data[r.x][r.y] = Field.EMPTY;
-        if(r.y + 1 < f.data.length) {
-            r.y++;
-        }
-        f.data[r.x][r.y] = Field.ROBOT;
-    }
-
-    private static void moveDown(Robot r, Field f) {
-        f.data[r.x][r.y] = Field.EMPTY;
-        if(r.x + 1 < f.data.length) {
-            r.x++;
-        }
-        f.data[r.x][r.y] = Field.ROBOT;
+        f.setValue(r.getX(), r.getY(), CellValue.ROBOT);
     }
 }
