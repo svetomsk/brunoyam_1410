@@ -1,6 +1,8 @@
 package crosses_zeros;
 
 import java.awt.*;
+import java.util.InputMismatchException;
+import java.util.Scanner;
 
 public class Player {
     private Cell symbol;
@@ -9,13 +11,18 @@ public class Player {
         this.symbol = symbol;
     }
 
-    //  TODO поменять возвращаемый тип
-//    public int[] makeTurn(Field field) {
     public Point makeTurn(Field field) {
-        int x = 0;
-        int y = 0;
+        Scanner sc = new Scanner(System.in);
+        try {
+            int x = sc.nextInt();
+            int y = sc.nextInt();
+            return new Point(x, y);
+        } catch (InputMismatchException exc) {
+            return new Point(-1, -1);
+        }
+    }
 
-//        return new int[]{x, y};
-        return new Point(x, y);
+    public Cell getSymbol() {
+        return symbol;
     }
 }
