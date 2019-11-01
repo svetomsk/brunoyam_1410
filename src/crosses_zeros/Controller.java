@@ -5,8 +5,8 @@ import java.awt.*;
 public class Controller {
     public void startGame() {
         Field field = new Field();
-        Player first = new Player(Cell.CROSS);
-        Player second = new Player(Cell.ZERO);
+        Player first = new HumanPlayer(Cell.CROSS);
+        Player second = new ComputerPlayer(Cell.ZERO);
         Player current = first;
 
         while (true) {
