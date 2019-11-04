@@ -1,5 +1,7 @@
 package tasks;
 
+import java.util.List;
+
 public class ArraysExample {
     public static void main(String[] args) {
         int[] mas = {-1, -3, 2, -5, 6};
