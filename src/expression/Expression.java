@@ -2,6 +2,6 @@ package expression;
 
 public interface Expression {
     // метод для подсчета значения выражения в вершине
-    double evaluate();
+    double evaluate(int x);
 }
 

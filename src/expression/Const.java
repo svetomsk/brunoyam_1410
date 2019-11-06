@@ -8,7 +8,7 @@ public class Const implements Expression {
     }
 
     @Override
-    public double evaluate() {
+    public double evaluate(int x) {
         return value;
     }
 }

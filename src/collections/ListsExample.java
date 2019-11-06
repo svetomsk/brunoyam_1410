@@ -24,17 +24,38 @@ public class ListsExample {
             System.out.println(data.get(i) * data.get(i));
         }
 
-        int n = 400000;
-        for (int i = 0; i < n; i++) {
-            data.add(0, i);
+
+
+        int repeats = 200000;
+        long start = System.currentTimeMillis(); // время до
+        for (int i = 0; i < repeats; i++) {
+            data.add(0, i); // O(1)
         }
-        System.out.println("List finished");
+        long finish = System.currentTimeMillis(); // время после
+        System.out.println("List finished in " + (finish - start));
 
         List<Integer> array = new ArrayList<>();
-        for(int i = 0; i < n; i++) {
-            array.add(0, i);
+        start = System.currentTimeMillis();
+        for(int i = 0; i < repeats; i++) {
+            array.add(0, i); // O(n)
         }
-        System.out.println("Array finished");
+        finish = System.currentTimeMillis();
+        System.out.println("Array finished in " + (finish - start));
+
+
+        start = System.currentTimeMillis();
+        for(int i = 0; i < repeats; i++) {
+            data.get(10000);
+        }
+        finish = System.currentTimeMillis();
+        System.out.println("List " + (finish - start));
+
+        start = System.currentTimeMillis();
+        for (int i = 0; i < repeats; i++) {
+            array.get(10000);
+        }
+        finish = System.currentTimeMillis();
+        System.out.println("Array " + (finish - start));
 
 
 

@@ -10,9 +10,9 @@ public abstract class BiExpression implements Expression {
     }
 
     @Override
-    public double evaluate() {
-        double leftValue = left.evaluate();
-        double rightValue = right.evaluate();
+    public double evaluate(int x) {
+        double leftValue = left.evaluate(x);
+        double rightValue = right.evaluate(x);
         return operation(leftValue, rightValue);
     }
 
