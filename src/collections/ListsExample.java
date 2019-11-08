@@ -20,6 +20,7 @@ public class ListsExample {
         for(Integer e : data) {
             System.out.println(e * e);
         }
+
         for (int i = 0; i < data.size(); i++) {
             System.out.println(data.get(i) * data.get(i));
         }
