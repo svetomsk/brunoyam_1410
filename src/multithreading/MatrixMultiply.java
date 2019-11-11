@@ -7,9 +7,9 @@ import java.util.concurrent.TimeUnit;
 
 public class MatrixMultiply {
     public static void main(String[] args) throws InterruptedException {
-        int n = 2000;
+        int n = 1200;
         int[][] A = generateMatrix(n);
-        int[][] B = generateMatrix(n);
+        int[][] B = generateMatrix(n) ;
 
         long start = System.currentTimeMillis();
         multiplyConsec(A, B, n);
