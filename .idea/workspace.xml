@@ -5,27 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f396a7b-9f50-4dc0-b77c-0e7abc32a959" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ui/FrameExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_xerial_sqlite_jdbc_3_28_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/DatabaseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/SimpleCalculatorUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/ArraysExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/BadPointCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/ClassSolution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/Conditions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/ExceptionsExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/LoopExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/MethodCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/MethodsExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/Point3D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/PointCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/ScannerExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/SecondArraysExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/StringExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1410/tasks/TwoDimArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/brunoyam_1410.iml" beforeDir="false" afterPath="$PROJECT_DIR$/brunoyam_1410.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,18 +27,19 @@
           <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.5" value="4" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
+          <entry key="db" value="1" />
           <entry key="form" value="1" />
-          <entry key="java" value="189" />
+          <entry key="java" value="193" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -61,70 +47,39 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="GUI_DESIGNER_FORM" value="1" />
-          <entry key="JAVA" value="189" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="JAVA" value="193" />
+          <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="java" value="25691" />
-          <entry key="txt" value="180" />
+          <entry key="java" value="27393" />
+          <entry key="txt" value="190" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="25691" />
-          <entry key="PLAIN_TEXT" value="190" />
+          <entry key="JAVA" value="27393" />
+          <entry key="PLAIN_TEXT" value="200" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/network/InputThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ui/FrameExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tasks/ArraysExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/network/ClientSide.java">
+        <entry file="file://$PROJECT_DIR$/src/db/DatabaseExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="174">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database.db">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -145,6 +100,7 @@
       <find>&quot;input.</find>
       <find>add(</find>
       <find>get(</find>
+      <find>JavaSc</find>
     </findStrings>
     <dirStrings>
       <dir>Z:\Общая преподавателей\Милых Светозар\brunoyam_1410</dir>
@@ -156,8 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Point.java" />
-        <option value="$PROJECT_DIR$/src/MethodsExample.java" />
         <option value="$PROJECT_DIR$/src/Point3D.java" />
         <option value="$PROJECT_DIR$/src/Car.java" />
         <option value="$PROJECT_DIR$/src/TwoDimArray.java" />
@@ -207,6 +161,8 @@
         <option value="$PROJECT_DIR$/src/network/InputThread.java" />
         <option value="$PROJECT_DIR$/src/ui/Form.form" />
         <option value="$PROJECT_DIR$/src/ui/FrameExample.java" />
+        <option value="$PROJECT_DIR$/src/ui/SimpleCalculatorUI.java" />
+        <option value="$PROJECT_DIR$/src/db/DatabaseExample.java" />
       </list>
     </option>
   </component>
@@ -220,6 +176,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,40 +187,12 @@
             </path>
             <path>
               <item name="brunoyam_1410" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brunoyam_1410" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brunoyam_1410" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brunoyam_1410" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brunoyam_1410" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brunoyam_1410" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brunoyam_1410" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brunoyam_1410" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-              <item name="Car.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="brunoyam_1410" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brunoyam_1410" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,11 +200,11 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="520" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573671756789" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573844880713" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/drive-download-20191105T160342Z-001/ClientServer" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -294,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FrameExample">
+  <component name="RunManager" selected="Application.DatabaseExample">
     <configuration name="ArraysExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.ArraysExample" />
       <module name="brunoyam_1410" />
@@ -321,6 +251,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DatabaseExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="db.DatabaseExample" />
+      <module name="brunoyam_1410" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FrameExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ui.FrameExample" />
       <module name="brunoyam_1410" />
@@ -334,25 +277,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixMultiply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.MatrixMultiply" />
+    <configuration name="SimpleCalculatorUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.SimpleCalculatorUI" />
       <module name="brunoyam_1410" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerSide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.ServerSide" />
-      <module name="brunoyam_1410" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="network.*" />
+          <option name="PATTERN" value="ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -361,19 +291,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MatrixMultiply" />
-      <item itemvalue="Application.ServerSide" />
       <item itemvalue="Application.ClientSide" />
       <item itemvalue="Application.FrameExample" />
       <item itemvalue="Application.ArraysExample" />
+      <item itemvalue="Application.SimpleCalculatorUI" />
+      <item itemvalue="Application.DatabaseExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DatabaseExample" />
+        <item itemvalue="Application.SimpleCalculatorUI" />
         <item itemvalue="Application.FrameExample" />
         <item itemvalue="Application.ArraysExample" />
         <item itemvalue="Application.ClientSide" />
-        <item itemvalue="Application.ServerSide" />
-        <item itemvalue="Application.MatrixMultiply" />
       </list>
     </recent_temporary>
   </component>
@@ -437,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573497675140</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="swing java">
+      <created>1573671822025</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573671822025</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -485,7 +422,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4959239" visible="true" weight="0.14179105" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4959239" visible="true" weight="0.1433902" />
       <window_info id="Structure" order="1" sideWeight="0.50407606" side_tool="true" weight="0.41684902" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -494,7 +431,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.27480158" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26789588" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2646421" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.15292841" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -502,7 +439,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.2483731" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -550,37 +487,10 @@
     <MESSAGE value="collections" />
     <MESSAGE value="collections example" />
     <MESSAGE value="network and multithreading" />
-    <option name="LAST_COMMIT_MESSAGE" value="network and multithreading" />
+    <MESSAGE value="swing java" />
+    <option name="LAST_COMMIT_MESSAGE" value="swing java" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/inheritance/BWPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/LazerPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/PrinterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -862,16 +772,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui.java" />
-    <entry file="file://$PROJECT_DIR$/src/network/InputThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/Form.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
@@ -882,10 +782,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/FrameExample.java">
+    <entry file="file://$PROJECT_DIR$/src/network/InputThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="19" selection-end-column="1" />
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -901,11 +801,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/network/ClientSide.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="242">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/script/ScriptEngineManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-814">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/SimpleCalculatorUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1276">
+          <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#416#480#0" />
+            <element signature="e#590#656#0" />
+            <element signature="e#1489#1490#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/FrameExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/DatabaseExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -974,6 +915,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>org.xerial:sqlite-jdbc:3.28.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
